@@ -1,0 +1,346 @@
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+
+  .columnabotones{
+	  flex-direction: column !important;
+  }
+
+  .albumpicker .v-btn{
+	  font-size: 0.70rem;
+  }
+}
+
+@media only screen and (max-width: 700px) {
+	.botonestoolbar{
+		display: none;
+	}
+	.botonesiconos{
+		display: block!important;
+	}
+}
+
+	.botonesiconos{
+		display: none;
+	}
+
+
+.cartamodal .v-icon{
+	color:#b7b7b7;
+}
+
+
+.editorCK4{
+		background-color: #ececec;
+		margin-bottom: 15px;
+}
+
+.editorCK4 .ck-toolbar{
+	background-color:#afafaf!important;
+}
+
+.cartamodal {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+.cartamodal::-webkit-scrollbar {
+  width: 13px;
+}
+.cartamodal {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+.cartamodal::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+.cartamodal::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+
+body {
+  --scrollbarBG: #CFD8DC;
+  --thumbBG: #90A4AE;
+}
+body::-webkit-scrollbar {
+  width: 15px;
+}
+body {
+  scrollbar-width: thin;
+  scrollbar-color: var(--thumbBG) var(--scrollbarBG);
+}
+body::-webkit-scrollbar-track {
+  background: var(--scrollbarBG);
+}
+body::-webkit-scrollbar-thumb {
+  background-color: var(--thumbBG) ;
+  border-radius: 6px;
+  border: 3px solid var(--scrollbarBG);
+}
+
+
+
+.editorCK .ck-toolbar{
+	background-color:#afafaf!important;
+}
+
+.editorCK2 .ck-toolbar{
+	background-color:#afafaf!important;
+}
+.editorCK2 .ck-content{
+	border-color:black!important;
+	max-height:495px;
+}
+
+.editorCK2 .ck-toolbar{
+	visibility: hidden;
+}
+
+
+.editorCK .ck-content{
+	border-color:#236063!important;
+}
+
+
+.fileinput .v-input__slot{
+	background-color: #d6d6d6!important;
+}
+
+.mascara-imagen .v-image__image{
+ 	box-shadow: inset -1px -2px 29px -1px #949494;
+	display:flex !important;
+	align-items:center !important;
+	border-width:1px;
+	border-color:#a2a2a2;
+}
+
+.zona-preview{
+	box-shadow: inset -1px -2px 29px -1px #949494;
+}
+
+.v-file-input__text{
+	justify-content: center!important;
+}
+
+.v-dialog{
+	overflow-y:hidden!important;
+}
+
+.v-dialog--animated{
+	animation-duration: 0.25s!important;
+}
+.cartamodal{
+	background-color: #1E1E1E!important;
+	max-height: 600px!important;
+    overflow-y: auto!important;
+}
+
+
+.v-card__text p{
+	margin-bottom: 0px;
+}
+.v-card__actions{
+	padding-bottom: 20px;
+}
+
+.v-dialog:not(.v-dialog--fullscreen){
+	max-height: none!important;
+}
+.v-window{
+	background-color: #ffffff00!important;
+}
+
+.ck.ck-dropdown__panel {
+	max-height: 330px; /* or anything else, more likely ~300px or so */
+	overflow-y: auto;
+}
+
+/*			MODAL			*/
+
+.boton-fuentes.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined){
+	background-color: #79aa7b!important;
+}
+.boton-modal.theme--dark.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined){
+	background-color:  #79aa7b!important;
+}
+
+.boton-modulo-editor.v-btn.v-btn--disabled:not(.v-btn--flat):not(.v-btn--text):not(.v-btn--outlined){
+	background-color: #a08d56!important;
+}
+
+.ck-content{
+	border-width: 1px!important;
+}
+.ck-content p{
+	margin:0px;
+}
+
+.editorCK{
+	margin-bottom: 15px;
+	background-color: #ececec;
+}
+
+.editorCK2{
+	margin-bottom: 10px;
+	background-color: #ececec;
+}
+
+.editorcktitulo{
+	margin-top:-77px !important;
+	margin-bottom: 0px;
+	background-color: transparent!important;
+}
+
+.editorcktitulo .ck-editor__editable{
+	text-align:center!important;
+}
+
+.editorCK .ck-editor__editable{
+	min-height: 160px;
+}
+
+.editorCK3{
+	min-height: 150px;
+	margin-bottom: 15px;
+}
+.editorCK3 .ck-editor__editable{
+	min-height: 150px;
+}
+
+.ck.ck-color-grid__tile{
+	min-width: 20px!important;
+	min-height: 20px!important;
+	width: 20px!important;
+	height: 20px!important;
+}
+/*--------------------CARTA STYLES----------------------------*/
+
+.v-card--disabled .v-image__image{
+	opacity: 0.6;
+}
+
+/*----------ALERTA--------------*/
+.v-dialog {
+	border-radius: 22px!important;
+	max-width: 1150px;
+}
+.alerta {
+	border-radius: 22px!important;
+}
+
+.carta {
+	background-color:#757575!important;
+	border-width: 0px!important;
+	/*box-shadow: 10px 10px 14px -4px rgba(0,0,0,0.54)!important;*/
+}
+.carta-titulo {
+	color:white!important;
+}
+.carta-descripcion {
+	color:white!important;
+}
+.carta-modificar {
+	color: #ffcb3a!important;
+}
+
+.carta-eliminar {
+	color: #ff4f61!important;
+}
+/*------------------------------------------------------------*/
+
+
+/*--------------------PAGINADOR----------------------------*/
+.paginador .v-pagination__item--active {
+	background-color:#4b924e!important;
+	color: #918b77!important;
+	box-shadow: 0px 0px 6px 1px #70c1b366;
+	outline:none!important;
+	opacity: 1!important;
+}
+.paginador .v-pagination__navigation--disabled {
+	background-color:#4b924e!important;
+	opacity: 0.3!important;
+}
+
+.paginador .v-pagination__navigation { /*flechitas de los costados*/
+	background-color: #4b924e!important;
+}
+.paginador .v-pagination__navigation .v-icon{
+	color: white!important;
+}
+
+.paginador .v-pagination__item {
+	color:white!important;
+	background-color:#4b924e!important;
+	opacity: 0.5;
+}
+
+/*--------------------------------------------------*/
+
+
+/*---------------------GENERAL----------------------------------*/
+
+.boton-modal.v-btn {
+	background-color: #4b924e!important;
+}
+.fondo {
+	background-color: #f5f5f5!important;
+}
+
+/*--------------------------------------------------*/
+
+
+/*-------------------NAVBAR----------------------------*/
+.appbar {
+	background-color:#212121!important;
+}
+
+.appbar .v-toolbar__title {
+	color:white!important;
+}
+/*--------------------------------------------------*/
+
+
+
+/*-------------------SIDEBAR----------------------------*/
+
+.sidebar{
+	/*background-color: #0e1d22!important;*/
+	background-color:#212121!important;
+	border-right-width: 2px;
+	border-right-color: #212121;
+}
+
+.sidebar .v-list-item:not( .v-list-item--active):not( .v-list-item--disabled ){
+	color:#d6d6d6!important;
+}
+
+.sidebar .v-list-item--active {
+	color:white;
+}
+
+.sidebar .v-icon{
+	color: white!important
+}
+
+
+/*--------------------------------------------------*/
+
+.sidebar-perfil .text-center {
+	color:white!important;
+	text-shadow: 3px 0px 3px #4e969675;
+}
+.sidebar-perfil .foto-perfil {
+	border-width: 3px;
+	border-color: white;
+}
+
+.sidebar-perfil .foto-perfil :hover {
+	opacity: 0.7;
+}
+
+.sidebar .empresa-nom span{
+	color:white;
+}
